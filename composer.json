@@ -1,0 +1,20 @@
+{
+    "name": "lucas/e-commerce",
+    "description": "Projeto desenvolvido com base no curso Hcode sobre PHP 7",
+    "require": {
+        "phpmailer/phpmailer": "5.2.22",
+        "slim/slim": "2.0",
+        "rain/raintpl": "3.0.0"
+    },
+    "authors": [
+        {
+            "name": "Lucas Pereira",
+            "email": "lucaass_mc@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
